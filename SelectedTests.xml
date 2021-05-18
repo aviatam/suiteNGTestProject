@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="SelectedTests">
+  <test thread-count="2" parallel="tests" name="com.salesforce.datorama.TestExample # workingTest">
+    <classes>
+      <class name="com.salesforce.datorama.TestExample">
+        <methods>
+          <include name="workingTest"/>
+        </methods>
+      </class> <!-- com.salesforce.datorama.TestExample -->
+    </classes>
+  </test> <!-- com.salesforce.datorama.TestExample # workingTest -->
+</suite> <!-- SelectedTests -->
